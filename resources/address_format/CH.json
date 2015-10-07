@@ -5,9 +5,13 @@
 		"recipient",
 		"addressLine1",
 		"locality",
+		"administrativeArea",
 		"postalCode"
 	],
-	"uppercase_fields": [],
+	"uppercase_fields": [
+        	"administrativeArea"
+	],
+    	"administrative_area_type": "state",
 	"locality_type": "city",
 	"postal_code_type": "postal",
 	"postal_code_pattern": "\\d{4}",
